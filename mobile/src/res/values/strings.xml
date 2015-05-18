@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Битые Пиксели</string>
-    <string name="info">Для смены цвета, проведите по экрану</string>
-    <string name="version">Версия приложения: </string>
-    <string name="build">Сборка</string>
+    <string name="app_name">Bad Pixels</string>
+    <string name="info">Swipe on screen to change color</string>
+    <string name="version">App Version:</string>
+    <string name="build">Build</string>
 </resources>

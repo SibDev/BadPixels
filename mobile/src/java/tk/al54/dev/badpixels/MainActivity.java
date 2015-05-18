@@ -28,7 +28,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         String versionName = BuildConfig.VERSION_NAME;
         final GestureDetector gestureDetector = new GestureDetector(new DetectGesture());
         mainBG = (FrameLayout) findViewById(R.id.mainBG);
-        mainBG.setBackgroundColor(getResources().getColor(R.color.blue));
+//        mainBG.setBackgroundColor(getResources().getColor(R.color.black));
         mainBG.setOnClickListener(this);
         mainBG.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -82,11 +82,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (i > 7) i = 0;
         if (i < 0) i = 7;
         if (j > 0) {
-//            tvn.setVisibility(View.GONE);
-//            tvi.setVisibility(View.GONE);
-//            tvv.setVisibility(View.GONE);
+            tvn.setVisibility(View.GONE);
+            tvi.setVisibility(View.GONE);
+            tvv.setVisibility(View.GONE);
         }
-        System.out.println("I: " + i);
+//        System.out.println("I: " + i);
 //        Toast.makeText(getApplicationContext(), "I: "+i, Toast.LENGTH_SHORT).show();
         switch (i) {
             case 0:
@@ -127,26 +127,26 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 i++;
                 changeColor();
 //                Toast.makeText(getApplicationContext(), "Right to left", Toast.LENGTH_SHORT).show();
-                System.out.println("Right to left");
+//                System.out.println("Right to left");
                 return true;
             }  else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
                 i--;
                 changeColor();
 //                Toast.makeText(getApplicationContext(), "Left to right", Toast.LENGTH_SHORT).show();
-                System.out.println("Left to right");
+//                System.out.println("Left to right");
                 return true;
             }
             if(e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
                 i++;
                 changeColor();
 //                Toast.makeText(getApplicationContext(), "Bottom to top", Toast.LENGTH_SHORT).show();
-                System.out.println("Bottom to top");
+//                System.out.println("Bottom to top");
                 return true;
             }  else if (e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
                 i--;
                 changeColor();
 //                Toast.makeText(getApplicationContext(), "Top to bottom", Toast.LENGTH_SHORT).show();
-                System.out.println("Top to bottom");
+//                System.out.println("Top to bottom");
                 return true;
             }
             return false;

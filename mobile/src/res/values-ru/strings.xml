@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Битые Пиксели</string>
+    <string name="info">Для смены цвета, проведите по экрану</string>
+    <string name="version">Версия приложения: </string>
+    <string name="build">Сборка</string>
+</resources>
