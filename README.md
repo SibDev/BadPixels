@@ -1,4 +1,4 @@
-# Битые Пиксели Проверка
+# Битые Пиксели Проверка [![Build Status](https://travis-ci.org/SibDev/BadPixels.svg?branch=master)](https://travis-ci.org/SibDev/BadPixels)
 
 ## Битые Пиксели — приложение для проверки экрана на наличие «Битых пикселей».
 
