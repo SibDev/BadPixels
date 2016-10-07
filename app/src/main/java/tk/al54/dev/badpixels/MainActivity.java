@@ -78,6 +78,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         return super.onOptionsItemSelected(item);
     }
+
     void changeColor() {
         if (i > 7) i = 0;
         if (i < 0) i = 7;
