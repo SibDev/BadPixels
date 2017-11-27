@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Złe Piksele</string>
+    <string name="info">Przeciągnij ekran by zmienić kolor</string>
+    <string name="version">Wersja aplikacji:</string>
+    <string name="build">Wydanie</string>
+</resources>
